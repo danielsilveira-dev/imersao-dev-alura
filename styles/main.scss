@@ -18,9 +18,11 @@
 
 .section__projects {
     padding: 3rem;
+    background-color: $section-bg-first;
     @include flexCenter(column);
     .section__title {
         font-size: 2.5rem;
+        color: $default-color-second;
     }
     .project__list {
         @include flexCenter(row);
